@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="WIKJR777IMPL" />
+        <module name="WIKJT777-01-MX" />
+        <module name="WIKJR778IMPL" />
+        <module name="WIKJR778" />
+        <module name="WIKJC777" />
+        <module name="WIKJR777" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
