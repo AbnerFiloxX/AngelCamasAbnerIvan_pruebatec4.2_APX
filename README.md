@@ -60,3 +60,4 @@ se esperaba que tuviera un retorno de la informacion y se guardara en la base de
     ]
 }
 ```
+#me arriesgaré a culpar al entorno de apx 
