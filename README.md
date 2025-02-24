@@ -26,3 +26,37 @@ Validación: No se permite insertar registros con nuip duplicado.
 Seguridad: Se prohíbe SELECT * y consultas con ? para valores.
 
 Salida esperada: Retorna la misma información insertada mediante un SELECT por id.
+🛠️ Tecnologías utilizadas
+
+Java con JDBC
+
+Oracle Database
+
+Docker (ASO Container)
+
+IntelliJ IDEA
+
+Postman para pruebas
+JSON ingresado para prueba
+```{
+  "dtoIn": {
+    "id": "26",
+    "nuip": "12345",
+    "full_name": "Abnercito Camas",
+    "phone": "9842805504",
+    "address": "Calle San Roque #7"
+  }
+}
+```
+se esperaba que tuviera un retorno de la informacion y se guardara en la base de datos pero no fue así,salia el error siguiente
+```{
+    "messages": [
+        {
+            "code": "01211000",
+            "message": "SE HA PRODUCIDO EL ERROR QWPO01211005 DURANTE EL PROCESAMIENTO DE LA TRANSACCION",
+            "adviceUuaa": "QWPO",
+            "type": "ERROR"
+        }
+    ]
+}
+```
