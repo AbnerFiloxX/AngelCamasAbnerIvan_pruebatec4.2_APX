@@ -18,7 +18,8 @@ full_name (VARCHAR(50))
 
 phone (VARCHAR(15))
 
-address (VARCHAR(30))```
+address (VARCHAR(30))
+```
 
 Validación: No se permite insertar registros con nuip duplicado.
 
